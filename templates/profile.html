@@ -1,0 +1,13 @@
+{% include 'navbar.html'%}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.username }}</h1>
+    <p>Email: {{ user.email }}</p>
+    <p>Role: {{ user.role }}</p>
+    <a href="/logout/">Logout</a>
+</body>
+</html>
