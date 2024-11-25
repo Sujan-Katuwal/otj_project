@@ -8,6 +8,7 @@
     <h1>Welcome, {{ user.username }}</h1>
     <p>Email: {{ user.email }}</p>
     <p>Role: {{ user.role }}</p>
+    <a href="{% url 'add_task' %}">Assign Task</a><br>
     <a href="/logout/">Logout</a>
 </body>
 </html>
